@@ -1,0 +1,599 @@
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19a5a/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_19a5a.dir/build.make CMakeFiles/cmTC_19a5a.dir/build
+Building CXX object CMakeFiles/cmTC_19a5a.dir/cxx11.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_19a5a.dir/cxx11.cpp.o -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/cmake/checks/cxx11.cpp
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/cmake/checks/cxx11.cpp:4:2: error: "C++11 is not supported"
+#error "C++11 is not supported"
+ ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/cmake/checks/cxx11.cpp:11:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto res = test();
+    ^
+1 warning and 1 error generated.
+make[1]: *** [CMakeFiles/cmTC_19a5a.dir/cxx11.cpp.o] Error 1
+make: *** [cmTC_19a5a/fast] Error 2
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96c4c/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_96c4c.dir/build.make CMakeFiles/cmTC_96c4c.dir/build
+Building C object CMakeFiles/cmTC_96c4c.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_96c4c.dir/CheckIncludeFile.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_96c4c.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_96c4c/fast] Error 2
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_362ae/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_362ae.dir/build.make CMakeFiles/cmTC_362ae.dir/build
+Building C object CMakeFiles/cmTC_362ae.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_362ae.dir/OFF64_T.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_362ae.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_362ae/fast] Error 2
+
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1f76/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b1f76.dir/build.make CMakeFiles/cmTC_b1f76.dir/build
+Building C object CMakeFiles/cmTC_b1f76.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b1f76.dir/CheckIncludeFile.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b1f76.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_b1f76/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_956f9/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_956f9.dir/build.make CMakeFiles/cmTC_956f9.dir/build
+Building C object CMakeFiles/cmTC_956f9.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_956f9.dir/int8.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:25:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:26:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:27:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:28:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_956f9.dir/int8.c.o] Error 1
+make: *** [cmTC_956f9/fast] Error 2
+
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae668/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae668.dir/build.make CMakeFiles/cmTC_ae668.dir/build
+Building C object CMakeFiles/cmTC_ae668.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ae668.dir/int16.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:25:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:26:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:27:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:28:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_ae668.dir/int16.c.o] Error 1
+make: *** [cmTC_ae668/fast] Error 2
+
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c789/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3c789.dir/build.make CMakeFiles/cmTC_3c789.dir/build
+Building C object CMakeFiles/cmTC_3c789.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_3c789.dir/int32.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:25:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:26:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:27:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:28:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_3c789.dir/int32.c.o] Error 1
+make: *** [cmTC_3c789/fast] Error 2
+
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b19d7/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b19d7.dir/build.make CMakeFiles/cmTC_b19d7.dir/build
+Building C object CMakeFiles/cmTC_b19d7.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_b19d7.dir/src.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_b19d7
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b19d7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b19d7.dir/src.c.o  -o cmTC_b19d7 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dcbf6/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dcbf6.dir/build.make CMakeFiles/cmTC_dcbf6.dir/build
+Building C object CMakeFiles/cmTC_dcbf6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_dcbf6.dir/src.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_dcbf6
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbf6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_dcbf6.dir/src.c.o  -o cmTC_dcbf6 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70a20/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70a20.dir/build.make CMakeFiles/cmTC_70a20.dir/build
+Building C object CMakeFiles/cmTC_70a20.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -o CMakeFiles/cmTC_70a20.dir/src.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_70a20
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a20.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_70a20.dir/src.c.o  -o cmTC_70a20 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-parameter', did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-parameter'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32bf4/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_32bf4.dir/build.make CMakeFiles/cmTC_32bf4.dir/build
+Building C object CMakeFiles/cmTC_32bf4.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-unused-but-set-parameter -o CMakeFiles/cmTC_32bf4.dir/src.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-parameter'; did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_32bf4
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32bf4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_32bf4.dir/src.c.o  -o cmTC_32bf4 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_475ac/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_475ac.dir/build.make CMakeFiles/cmTC_475ac.dir/build
+Building C object CMakeFiles/cmTC_475ac.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-pointer-compare -o CMakeFiles/cmTC_475ac.dir/src.c.o   -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_475ac
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_475ac.dir/src.c.o  -o cmTC_475ac 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6934/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d6934.dir/build.make CMakeFiles/cmTC_d6934.dir/build
+Building CXX object CMakeFiles/cmTC_d6934.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-misleading-indentation -o CMakeFiles/cmTC_d6934.dir/src.cxx.o -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_d6934
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6934.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d6934.dir/src.cxx.o  -o cmTC_d6934 
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4d6a/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4d6a.dir/build.make CMakeFiles/cmTC_d4d6a.dir/build
+Building C object CMakeFiles/cmTC_d4d6a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d4d6a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.14.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4d6a
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d6a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d4d6a.dir/CheckFunctionExists.c.o  -o cmTC_d4d6a 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d4d6a] Error 1
+make: *** [cmTC_d4d6a/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a0d5/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1a0d5.dir/build.make CMakeFiles/cmTC_1a0d5.dir/build
+Building CXX object CMakeFiles/cmTC_1a0d5.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_1a0d5.dir/src.cxx.o -c /Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/mody/OpenPose-Multi-Person/opencv-3.4.0/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_1a0d5
+/usr/local/Cellar/cmake/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a0d5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_1a0d5.dir/src.cxx.o  -o cmTC_1a0d5 
+
+===== END =====
+
