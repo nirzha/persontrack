@@ -1,0 +1,8 @@
+DAGER: Deep Age, Gender and Emotion Recognition Using Convolutional Neural Networks
+	by Dehghan, Ortiz, et al, 2017
+Test: https://www.sighthound.com/products/cloud
+Data: 4 millions images for the task of face recognition
+Augmentation: horizontal flip, random crop, rotation, brightness, contrast
+Output: age estimation, gender (male and female), emotion (Fearful, Sad, Neutral, Angry, Disgusted, Happy, Surprised)
+
+
