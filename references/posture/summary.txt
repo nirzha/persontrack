@@ -1,0 +1,2 @@
+Deep High-Resolution Representation Learning for Human Pose Estimation
+	by Sun, Xiao, et al, 2019
